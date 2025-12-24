@@ -1,4 +1,5 @@
 {
   "name": "Perovskite Research Showcase",
-  "description": "A minimalist, monochromatic product introduction page for a chemistry research team focused on HBr lead Phase Transformation in Perovskite WLEDs."
+  "description": "A minimalist, monochromatic product introduction page for a chemistry research team focused on HBr lead Phase Transformation in Perovskite WLEDs.",
+  "requestFramePermissions": []
 }

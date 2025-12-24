@@ -21,19 +21,29 @@
         scroll-behavior: smooth;
       }
     </style>
-  <script type="importmap">
+    
+    <!-- 1. Load Babel for in-browser compilation (makes the site static) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- 2. Define imports for React to load from CDN -->
+    <script type="importmap">
 {
   "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
+    
+    <!-- 3. Entry point: Load the consolidated index.tsx -->
+    <!-- The data-presets tells Babel to handle React JSX and TypeScript -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>

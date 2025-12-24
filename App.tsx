@@ -10,10 +10,10 @@ const App: React.FC = () => {
       {/* ---------------- PART 1: HEADER ---------------- */}
       <Section className="pt-32 pb-16 min-h-[60vh] justify-center">
         <MainTitle>
-          [Product Title]
+          [Product Title: HBr Phase Transformer]
         </MainTitle>
         <SectionIntro>
-          [Brief Introduction]
+          [Brief Introduction: Investigating the Mechanism of HBr lead Phase Transformation via Its Effect in Photoelectric Properties of Perovskite WLEDs. A breakthrough in stability and efficiency.]
         </SectionIntro>
       </Section>
 
@@ -25,20 +25,20 @@ const App: React.FC = () => {
       <Section>
         <Subtitle>[Our Team]</Subtitle>
         <BodyText>
-          [Team Introduction]
+          [Team Introduction: We are a dedicated group of chemists and engineers pushing the boundaries of material science. Focusing on the subtle interactions within Perovskite structures to unlock next-generation lighting solutions.]
         </BodyText>
 
         <div className="grid md:grid-cols-2 gap-12 mt-12 w-full">
           <div>
             <SubSubtitle>[Vision]</SubSubtitle>
             <BodyText>
-              [Vision Text]
+              [Vision Text: To create stable, highly efficient WLEDs that revolutionize the lighting industry through precise chemical phase control.]
             </BodyText>
           </div>
           <div>
             <SubSubtitle>[Values]</SubSubtitle>
             <BodyText>
-              [Values Text]
+              [Values Text: Precision, Innovation, Sustainability, and rigorous Scientific Integrity in every experiment we conduct.]
             </BodyText>
           </div>
         </div>
@@ -49,7 +49,7 @@ const App: React.FC = () => {
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
             <Subtitle>[Methodology]</Subtitle>
             <BodyText>
-              [Flowchart Text]
+              [Flowchart Text: Our process involves precursor synthesis, HBr doping, Phase monitoring via XRD, and Photoelectric property evaluation.]
             </BodyText>
             <PlaceholderImage label="[Process Flowchart Diagram]" seed={100} height="h-64" />
         </div>
@@ -63,7 +63,7 @@ const App: React.FC = () => {
         <div className="w-full mb-16">
           <SubSubtitle>[Product Model 1: The Stabilizer]</SubSubtitle>
           <BodyText>
-            [Model 1 Text]
+            [Model 1 Text: This variation focuses on maximum phase stability under thermal stress, ensuring longevity in high-power applications.]
           </BodyText>
           <PlaceholderImage label="[Product Model 1 Visualization]" seed={201} />
         </div>
@@ -72,7 +72,7 @@ const App: React.FC = () => {
         <div className="w-full mb-16">
           <SubSubtitle>[Product Model 2: The Emitter]</SubSubtitle>
           <BodyText>
-            [Model 2 Text]
+            [Model 2 Text: Optimized for maximum lumen output, this model utilizes a specific HBr concentration to enhance radiative recombination.]
           </BodyText>
           <PlaceholderImage label="[Product Model 2 Visualization]" seed={202} />
         </div>
@@ -81,7 +81,7 @@ const App: React.FC = () => {
         <div className="w-full p-8 border border-gray-100 rounded-xl bg-white shadow-sm mt-12">
           <SubSubtitle>[Performance Comparison]</SubSubtitle>
           <BodyText>
-            [Comparison Text]
+            [Comparison Text: Demonstrating superior stability and PLQY retention compared to standard iodine-based Perovskites over 1000 hours of operation.]
           </BodyText>
           <PlaceholderImage label="[Comparison Chart/Graph]" seed={300} height="h-80" />
         </div>
@@ -90,7 +90,7 @@ const App: React.FC = () => {
         <div className="mt-16">
             <SubSubtitle>[Core Value]</SubSubtitle>
             <BodyText className="text-xl">
-              [Value Text]
+              [Value Text: Unlocking the true potential of Perovskite technology by solving the phase instability bottleneck.]
             </BodyText>
         </div>
       </Section>
@@ -98,14 +98,14 @@ const App: React.FC = () => {
       {/* ---------------- PART 3: FOOTER ---------------- */}
       <footer className="w-full bg-black text-white py-24 flex flex-col items-center justify-center text-center">
         <h2 className="text-4xl font-bold tracking-tight mb-6">
-          [Team Name]
+          [Team Name: ChemTech Lab]
         </h2>
         <div className="w-12 h-1 bg-white/20 mb-6"></div>
         <SectionIntro className="text-gray-400 italic">
-          [Mission Slogan]
+          [Mission Slogan: Transforming Chemistry into Light.]
         </SectionIntro>
         <div className="mt-12 text-xs text-gray-700 font-mono">
-          © 2025 Machine Not Learning Group. 0 Right Reserved.
+          © 2024 Research Group. All Rights Reserved.
         </div>
       </footer>
 
